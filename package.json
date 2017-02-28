@@ -4,7 +4,8 @@
   "description": "a desktop app for markshow",
   "main": "main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "electron ."
   },
   "repository": {
     "type": "git",
@@ -13,6 +14,9 @@
   "keywords": [
     "markshow"
   ],
+  "dependencies": {
+    "electron":""
+  },
   "author": "blankrain",
   "license": "ISC",
   "bugs": {
